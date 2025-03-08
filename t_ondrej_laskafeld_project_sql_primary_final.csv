@@ -1,0 +1,761 @@
+"id","year","industry_branch_code","industry_branch_name","payroll_value","category_code","category_name","price_avg","price_value","price_unit"
+1,2000,A,"Zemědělství, lesnictví, rybářství",8793.00,,,,,
+2,2000,B,Těžba a dobývání,14780.00,,,,,
+3,2000,C,Zpracovatelský průmysl,11685.00,,,,,
+4,2000,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",15824.00,,,,,
+5,2000,E,Zásobování vodou; činnosti související s odpady a sanacemi,11467.00,,,,,
+6,2000,F,Stavebnictví,10972.00,,,,,
+7,2000,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,11115.00,,,,,
+8,2000,H,Doprava a skladování,12043.00,,,,,
+9,2000,I,"Ubytování, stravování a pohostinství",6698.00,,,,,
+10,2000,J,Informační a komunikační činnosti,20625.00,,,,,
+11,2000,K,Peněžnictví a pojišťovnictví,22155.00,,,,,
+12,2000,L,Činnosti v oblasti nemovitostí,10575.00,,,,,
+13,2000,M,"Profesní, vědecké a technické činnosti",13817.00,,,,,
+14,2000,N,Administrativní a podpůrné činnosti,9036.00,,,,,
+15,2000,O,Veřejná správa a obrana; povinné sociální zabezpečení,13197.00,,,,,
+16,2000,P,Vzdělávání,9646.00,,,,,
+17,2000,Q,Zdravotní a sociální péče,10022.00,,,,,
+18,2000,R,"Kulturní, zábavní a rekreační činnosti",9234.00,,,,,
+19,2000,S,Ostatní činnosti,9111.00,,,,,
+20,2001,A,"Zemědělství, lesnictví, rybářství",9639.00,,,,,
+21,2001,B,Těžba a dobývání,15830.00,,,,,
+22,2001,C,Zpracovatelský průmysl,12597.00,,,,,
+23,2001,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",17158.00,,,,,
+24,2001,E,Zásobování vodou; činnosti související s odpady a sanacemi,12237.00,,,,,
+25,2001,F,Stavebnictví,11723.00,,,,,
+26,2001,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,12096.00,,,,,
+27,2001,H,Doprava a skladování,12817.00,,,,,
+28,2001,I,"Ubytování, stravování a pohostinství",7323.00,,,,,
+29,2001,J,Informační a komunikační činnosti,24033.00,,,,,
+30,2001,K,Peněžnictví a pojišťovnictví,25989.00,,,,,
+31,2001,L,Činnosti v oblasti nemovitostí,11618.00,,,,,
+32,2001,M,"Profesní, vědecké a technické činnosti",15107.00,,,,,
+33,2001,N,Administrativní a podpůrné činnosti,9556.00,,,,,
+34,2001,O,Veřejná správa a obrana; povinné sociální zabezpečení,14429.00,,,,,
+35,2001,P,Vzdělávání,10586.00,,,,,
+36,2001,Q,Zdravotní a sociální péče,11300.00,,,,,
+37,2001,R,"Kulturní, zábavní a rekreační činnosti",10228.00,,,,,
+38,2001,S,Ostatní činnosti,9943.00,,,,,
+39,2002,A,"Zemědělství, lesnictví, rybářství",10298.00,,,,,
+40,2002,B,Těžba a dobývání,16869.00,,,,,
+41,2002,C,Zpracovatelský průmysl,13461.00,,,,,
+42,2002,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",19028.00,,,,,
+43,2002,E,Zásobování vodou; činnosti související s odpady a sanacemi,13164.00,,,,,
+44,2002,F,Stavebnictví,12245.00,,,,,
+45,2002,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,13085.00,,,,,
+46,2002,H,Doprava a skladování,13915.00,,,,,
+47,2002,I,"Ubytování, stravování a pohostinství",8513.00,,,,,
+48,2002,J,Informační a komunikační činnosti,26251.00,,,,,
+49,2002,K,Peněžnictví a pojišťovnictví,30281.00,,,,,
+50,2002,L,Činnosti v oblasti nemovitostí,13347.00,,,,,
+51,2002,M,"Profesní, vědecké a technické činnosti",16371.00,,,,,
+52,2002,N,Administrativní a podpůrné činnosti,10235.00,,,,,
+53,2002,O,Veřejná správa a obrana; povinné sociální zabezpečení,15222.00,,,,,
+54,2002,P,Vzdělávání,11252.00,,,,,
+55,2002,Q,Zdravotní a sociální péče,12305.00,,,,,
+56,2002,R,"Kulturní, zábavní a rekreační činnosti",10640.00,,,,,
+57,2002,S,Ostatní činnosti,10864.00,,,,,
+58,2003,A,"Zemědělství, lesnictví, rybářství",10463.00,,,,,
+59,2003,B,Těžba a dobývání,17917.00,,,,,
+60,2003,C,Zpracovatelský průmysl,14046.00,,,,,
+61,2003,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",20680.00,,,,,
+62,2003,E,Zásobování vodou; činnosti související s odpady a sanacemi,13825.00,,,,,
+63,2003,F,Stavebnictví,12944.00,,,,,
+64,2003,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,13902.00,,,,,
+65,2003,H,Doprava a skladování,14598.00,,,,,
+66,2003,I,"Ubytování, stravování a pohostinství",8897.00,,,,,
+67,2003,J,Informační a komunikační činnosti,27965.00,,,,,
+68,2003,K,Peněžnictví a pojišťovnictví,31202.00,,,,,
+69,2003,L,Činnosti v oblasti nemovitostí,14168.00,,,,,
+70,2003,M,"Profesní, vědecké a technické činnosti",17682.00,,,,,
+71,2003,N,Administrativní a podpůrné činnosti,10530.00,,,,,
+72,2003,O,Veřejná správa a obrana; povinné sociální zabezpečení,17060.00,,,,,
+73,2003,P,Vzdělávání,12982.00,,,,,
+74,2003,Q,Zdravotní a sociální péče,13964.00,,,,,
+75,2003,R,"Kulturní, zábavní a rekreační činnosti",11695.00,,,,,
+76,2003,S,Ostatní činnosti,11864.00,,,,,
+77,2004,A,"Zemědělství, lesnictví, rybářství",11237.00,,,,,
+78,2004,B,Těžba a dobývání,18597.00,,,,,
+79,2004,C,Zpracovatelský průmysl,15424.00,,,,,
+80,2004,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",22235.00,,,,,
+81,2004,E,Zásobování vodou; činnosti související s odpady a sanacemi,15075.00,,,,,
+82,2004,F,Stavebnictví,14375.00,,,,,
+83,2004,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,14750.00,,,,,
+84,2004,H,Doprava a skladování,15812.00,,,,,
+85,2004,I,"Ubytování, stravování a pohostinství",9389.00,,,,,
+86,2004,J,Informační a komunikační činnosti,29664.00,,,,,
+87,2004,K,Peněžnictví a pojišťovnictví,35234.00,,,,,
+88,2004,L,Činnosti v oblasti nemovitostí,15149.00,,,,,
+89,2004,M,"Profesní, vědecké a technické činnosti",18369.00,,,,,
+90,2004,N,Administrativní a podpůrné činnosti,11180.00,,,,,
+91,2004,O,Veřejná správa a obrana; povinné sociální zabezpečení,18542.00,,,,,
+92,2004,P,Vzdělávání,14520.00,,,,,
+93,2004,Q,Zdravotní a sociální péče,15007.00,,,,,
+94,2004,R,"Kulturní, zábavní a rekreační činnosti",12552.00,,,,,
+95,2004,S,Ostatní činnosti,12395.00,,,,,
+96,2005,A,"Zemědělství, lesnictví, rybářství",11809.00,,,,,
+97,2005,B,Těžba a dobývání,19948.00,,,,,
+98,2005,C,Zpracovatelský průmysl,15967.00,,,,,
+99,2005,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",24068.00,,,,,
+100,2005,E,Zásobování vodou; činnosti související s odpady a sanacemi,15793.00,,,,,
+101,2005,F,Stavebnictví,14643.00,,,,,
+102,2005,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,15438.00,,,,,
+103,2005,H,Doprava a skladování,16305.00,,,,,
+104,2005,I,"Ubytování, stravování a pohostinství",9661.00,,,,,
+105,2005,J,Informační a komunikační činnosti,31695.00,,,,,
+106,2005,K,Peněžnictví a pojišťovnictví,39704.00,,,,,
+107,2005,L,Činnosti v oblasti nemovitostí,15652.00,,,,,
+108,2005,M,"Profesní, vědecké a technické činnosti",19914.00,,,,,
+109,2005,N,Administrativní a podpůrné činnosti,11633.00,,,,,
+110,2005,O,Veřejná správa a obrana; povinné sociální zabezpečení,20562.00,,,,,
+111,2005,P,Vzdělávání,15439.00,,,,,
+112,2005,Q,Zdravotní a sociální péče,15666.00,,,,,
+113,2005,R,"Kulturní, zábavní a rekreační činnosti",13649.00,,,,,
+114,2005,S,Ostatní činnosti,13195.00,,,,,
+115,2006,A,"Zemědělství, lesnictví, rybářství",12543.00,,,,,
+116,2006,B,Těžba a dobývání,21297.00,,,,,
+117,2006,C,Zpracovatelský průmysl,17051.00,,,,,
+118,2006,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",26201.00,,,,,
+119,2006,E,Zásobování vodou; činnosti související s odpady a sanacemi,16742.00,,,,,
+120,2006,F,Stavebnictví,15462.00,,,,,
+121,2006,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,16337.00,,,,,
+122,2006,H,Doprava a skladování,17719.00,,,,,
+123,2006,I,"Ubytování, stravování a pohostinství",10470.00,,,,,
+124,2006,J,Informační a komunikační činnosti,34280.00,,,,,
+125,2006,K,Peněžnictví a pojišťovnictví,43481.00,,,,,
+126,2006,L,Činnosti v oblasti nemovitostí,16729.00,,,,,
+127,2006,M,"Profesní, vědecké a technické činnosti",20991.00,,,,,
+128,2006,N,Administrativní a podpůrné činnosti,12586.00,,,,,
+129,2006,O,Veřejná správa a obrana; povinné sociální zabezpečení,21695.00,,,,,
+130,2006,P,Vzdělávání,16471.00,,,,,
+131,2006,Q,Zdravotní a sociální péče,17075.00,,,,,
+132,2006,R,"Kulturní, zábavní a rekreační činnosti",14524.00,,,,,
+133,2006,S,Ostatní činnosti,14144.00,,,,,
+134,2007,A,"Zemědělství, lesnictví, rybářství",13816.00,,,,,
+135,2007,B,Těžba a dobývání,23168.00,,,,,
+136,2007,C,Zpracovatelský průmysl,18405.00,,,,,
+137,2007,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",28409.00,,,,,
+138,2007,E,Zásobování vodou; činnosti související s odpady a sanacemi,17748.00,,,,,
+139,2007,F,Stavebnictví,17277.00,,,,,
+140,2007,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,17756.00,,,,,
+141,2007,H,Doprava a skladování,19083.00,,,,,
+142,2007,I,"Ubytování, stravování a pohostinství",11039.00,,,,,
+143,2007,J,Informační a komunikační činnosti,36600.00,,,,,
+144,2007,K,Peněžnictví a pojišťovnictví,46361.00,,,,,
+145,2007,L,Činnosti v oblasti nemovitostí,18245.00,,,,,
+146,2007,M,"Profesní, vědecké a technické činnosti",23248.00,,,,,
+147,2007,N,Administrativní a podpůrné činnosti,13340.00,,,,,
+148,2007,O,Veřejná správa a obrana; povinné sociální zabezpečení,23199.00,,,,,
+149,2007,P,Vzdělávání,17498.00,,,,,
+150,2007,Q,Zdravotní a sociální péče,18042.00,,,,,
+151,2007,R,"Kulturní, zábavní a rekreační činnosti",15527.00,,,,,
+152,2007,S,Ostatní činnosti,14985.00,,,,,
+153,2008,A,"Zemědělství, lesnictví, rybářství",15659.00,,,,,
+154,2008,B,Těžba a dobývání,26984.00,,,,,
+155,2008,C,Zpracovatelský průmysl,20411.00,,,,,
+156,2008,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",35218.00,,,,,
+157,2008,E,Zásobování vodou; činnosti související s odpady a sanacemi,19786.00,,,,,
+158,2008,F,Stavebnictví,19297.00,,,,,
+159,2008,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,19751.00,,,,,
+160,2008,H,Doprava a skladování,20453.00,,,,,
+161,2008,I,"Ubytování, stravování a pohostinství",11521.00,,,,,
+162,2008,J,Informační a komunikační činnosti,40975.00,,,,,
+163,2008,K,Peněžnictví a pojišťovnictví,51456.00,,,,,
+164,2008,L,Činnosti v oblasti nemovitostí,18734.00,,,,,
+165,2008,M,"Profesní, vědecké a technické činnosti",26940.00,,,,,
+166,2008,N,Administrativní a podpůrné činnosti,14036.00,,,,,
+167,2008,O,Veřejná správa a obrana; povinné sociální zabezpečení,23920.00,,,,,
+168,2008,P,Vzdělávání,18083.00,,,,,
+169,2008,Q,Zdravotní a sociální péče,18960.00,,,,,
+170,2008,R,"Kulturní, zábavní a rekreační činnosti",16571.00,,,,,
+171,2008,S,Ostatní činnosti,16136.00,,,,,
+172,2009,A,"Zemědělství, lesnictví, rybářství",15392.00,,,,,
+173,2009,B,Těžba a dobývání,25233.00,,,,,
+174,2009,C,Zpracovatelský průmysl,20537.00,,,,,
+175,2009,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",37963.00,,,,,
+176,2009,E,Zásobování vodou; činnosti související s odpady a sanacemi,19912.00,,,,,
+177,2009,F,Stavebnictví,19740.00,,,,,
+178,2009,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,19743.00,,,,,
+179,2009,H,Doprava a skladování,21538.00,,,,,
+180,2009,I,"Ubytování, stravování a pohostinství",11257.00,,,,,
+181,2009,J,Informační a komunikační činnosti,42651.00,,,,,
+182,2009,K,Peněžnictví a pojišťovnictví,50702.00,,,,,
+183,2009,L,Činnosti v oblasti nemovitostí,18366.00,,,,,
+184,2009,M,"Profesní, vědecké a technické činnosti",30170.00,,,,,
+185,2009,N,Administrativní a podpůrné činnosti,14558.00,,,,,
+186,2009,O,Veřejná správa a obrana; povinné sociální zabezpečení,24784.00,,,,,
+187,2009,P,Vzdělávání,18988.00,,,,,
+188,2009,Q,Zdravotní a sociální péče,19996.00,,,,,
+189,2009,R,"Kulturní, zábavní a rekreační činnosti",16808.00,,,,,
+190,2009,S,Ostatní činnosti,15872.00,,,,,
+191,2010,A,"Zemědělství, lesnictví, rybářství",15926.00,,,,,
+192,2010,B,Těžba a dobývání,26987.00,,,,,
+193,2010,C,Zpracovatelský průmysl,21522.00,,,,,
+194,2010,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",39264.00,,,,,
+195,2010,E,Zásobování vodou; činnosti související s odpady a sanacemi,21117.00,,,,,
+196,2010,F,Stavebnictví,19648.00,,,,,
+197,2010,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,20294.00,,,,,
+198,2010,H,Doprava a skladování,21756.00,,,,,
+199,2010,I,"Ubytování, stravování a pohostinství",12139.00,,,,,
+200,2010,J,Informační a komunikační činnosti,42481.00,,,,,
+201,2010,K,Peněžnictví a pojišťovnictví,50575.00,,,,,
+202,2010,L,Činnosti v oblasti nemovitostí,19328.00,,,,,
+203,2010,M,"Profesní, vědecké a technické činnosti",27786.00,,,,,
+204,2010,N,Administrativní a podpůrné činnosti,14777.00,,,,,
+205,2010,O,Veřejná správa a obrana; povinné sociální zabezpečení,25553.00,,,,,
+206,2010,P,Vzdělávání,19448.00,,,,,
+207,2010,Q,Zdravotní a sociální péče,21392.00,,,,,
+208,2010,R,"Kulturní, zábavní a rekreační činnosti",17960.00,,,,,
+209,2010,S,Ostatní činnosti,16016.00,,,,,
+210,2011,A,"Zemědělství, lesnictví, rybářství",16542.00,,,,,
+211,2011,B,Těžba a dobývání,28375.00,,,,,
+212,2011,C,Zpracovatelský průmysl,22375.00,,,,,
+213,2011,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",41941.00,,,,,
+214,2011,E,Zásobování vodou; činnosti související s odpady a sanacemi,21405.00,,,,,
+215,2011,F,Stavebnictví,20439.00,,,,,
+216,2011,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,20811.00,,,,,
+217,2011,H,Doprava a skladování,21944.00,,,,,
+218,2011,I,"Ubytování, stravování a pohostinství",11957.00,,,,,
+219,2011,J,Informační a komunikační činnosti,44509.00,,,,,
+220,2011,K,Peněžnictví a pojišťovnictví,51937.00,,,,,
+221,2011,L,Činnosti v oblasti nemovitostí,20137.00,,,,,
+222,2011,M,"Profesní, vědecké a technické činnosti",28987.00,,,,,
+223,2011,N,Administrativní a podpůrné činnosti,15125.00,,,,,
+224,2011,O,Veřejná správa a obrana; povinné sociální zabezpečení,24498.00,,,,,
+225,2011,P,Vzdělávání,19674.00,,,,,
+226,2011,Q,Zdravotní a sociální péče,21855.00,,,,,
+227,2011,R,"Kulturní, zábavní a rekreační činnosti",17874.00,,,,,
+228,2011,S,Ostatní činnosti,17062.00,,,,,
+229,2012,A,"Zemědělství, lesnictví, rybářství",17609.00,,,,,
+230,2012,B,Těžba a dobývání,29831.00,,,,,
+231,2012,C,Zpracovatelský průmysl,23260.00,,,,,
+232,2012,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",42619.00,,,,,
+233,2012,E,Zásobování vodou; činnosti související s odpady a sanacemi,22092.00,,,,,
+234,2012,F,Stavebnictví,20845.00,,,,,
+235,2012,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,21637.00,,,,,
+236,2012,H,Doprava a skladování,22333.00,,,,,
+237,2012,I,"Ubytování, stravování a pohostinství",12369.00,,,,,
+238,2012,J,Informační a komunikační činnosti,45162.00,,,,,
+239,2012,K,Peněžnictví a pojišťovnictví,52377.00,,,,,
+240,2012,L,Činnosti v oblasti nemovitostí,21129.00,,,,,
+241,2012,M,"Profesní, vědecké a technické činnosti",30012.00,,,,,
+242,2012,N,Administrativní a podpůrné činnosti,15661.00,,,,,
+243,2012,O,Veřejná správa a obrana; povinné sociální zabezpečení,25033.00,,,,,
+244,2012,P,Vzdělávání,20445.00,,,,,
+245,2012,Q,Zdravotní a sociální péče,22724.00,,,,,
+246,2012,R,"Kulturní, zábavní a rekreační činnosti",18185.00,,,,,
+247,2012,S,Ostatní činnosti,17434.00,,,,,
+248,2013,A,"Zemědělství, lesnictví, rybářství",17762.00,,,,,
+249,2013,B,Těžba a dobývání,29001.00,,,,,
+250,2013,C,Zpracovatelský průmysl,23407.00,,,,,
+251,2013,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",41491.00,,,,,
+252,2013,E,Zásobování vodou; činnosti související s odpady a sanacemi,21646.00,,,,,
+253,2013,F,Stavebnictví,20498.00,,,,,
+254,2013,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,21562.00,,,,,
+255,2013,H,Doprava a skladování,22225.00,,,,,
+256,2013,I,"Ubytování, stravování a pohostinství",12653.00,,,,,
+257,2013,J,Informační a komunikační činnosti,45169.00,,,,,
+258,2013,K,Peněžnictví a pojišťovnictví,46280.00,,,,,
+259,2013,L,Činnosti v oblasti nemovitostí,20825.00,,,,,
+260,2013,M,"Profesní, vědecké a technické činnosti",29319.00,,,,,
+261,2013,N,Administrativní a podpůrné činnosti,15482.00,,,,,
+262,2013,O,Veřejná správa a obrana; povinné sociální zabezpečení,25024.00,,,,,
+263,2013,P,Vzdělávání,20359.00,,,,,
+264,2013,Q,Zdravotní a sociální péče,22717.00,,,,,
+265,2013,R,"Kulturní, zábavní a rekreační činnosti",18461.00,,,,,
+266,2013,S,Ostatní činnosti,17328.00,,,,,
+267,2014,A,"Zemědělství, lesnictví, rybářství",18667.00,,,,,
+268,2014,B,Těžba a dobývání,29730.00,,,,,
+269,2014,C,Zpracovatelský průmysl,24371.00,,,,,
+270,2014,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",42864.00,,,,,
+271,2014,E,Zásobování vodou; činnosti související s odpady a sanacemi,22319.00,,,,,
+272,2014,F,Stavebnictví,21170.00,,,,,
+273,2014,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,22300.00,,,,,
+274,2014,H,Doprava a skladování,22883.00,,,,,
+275,2014,I,"Ubytování, stravování a pohostinství",13047.00,,,,,
+276,2014,J,Informační a komunikační činnosti,47725.00,,,,,
+277,2014,K,Peněžnictví a pojišťovnictví,50973.00,,,,,
+278,2014,L,Činnosti v oblasti nemovitostí,22020.00,,,,,
+279,2014,M,"Profesní, vědecké a technické činnosti",30423.00,,,,,
+280,2014,N,Administrativní a podpůrné činnosti,16178.00,,,,,
+281,2014,O,Veřejná správa a obrana; povinné sociální zabezpečení,25703.00,,,,,
+282,2014,P,Vzdělávání,20794.00,,,,,
+283,2014,Q,Zdravotní a sociální péče,23120.00,,,,,
+284,2014,R,"Kulturní, zábavní a rekreační činnosti",19293.00,,,,,
+285,2014,S,Ostatní činnosti,17667.00,,,,,
+286,2015,A,"Zemědělství, lesnictví, rybářství",19006.00,,,,,
+287,2015,B,Těžba a dobývání,29550.00,,,,,
+288,2015,C,Zpracovatelský průmysl,24950.00,,,,,
+289,2015,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",42407.00,,,,,
+290,2015,E,Zásobování vodou; činnosti související s odpady a sanacemi,22641.00,,,,,
+291,2015,F,Stavebnictví,21715.00,,,,,
+292,2015,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,23013.00,,,,,
+293,2015,H,Doprava a skladování,23296.00,,,,,
+294,2015,I,"Ubytování, stravování a pohostinství",13643.00,,,,,
+295,2015,J,Informační a komunikační činnosti,48858.00,,,,,
+296,2015,K,Peněžnictví a pojišťovnictví,49704.00,,,,,
+297,2015,L,Činnosti v oblasti nemovitostí,22580.00,,,,,
+298,2015,M,"Profesní, vědecké a technické činnosti",31471.00,,,,,
+299,2015,N,Administrativní a podpůrné činnosti,16145.00,,,,,
+300,2015,O,Veřejná správa a obrana; povinné sociální zabezpečení,26541.00,,,,,
+301,2015,P,Vzdělávání,21280.00,,,,,
+302,2015,Q,Zdravotní a sociální péče,24059.00,,,,,
+303,2015,R,"Kulturní, zábavní a rekreační činnosti",19966.00,,,,,
+304,2015,S,Ostatní činnosti,18112.00,,,,,
+305,2016,A,"Zemědělství, lesnictví, rybářství",20014.00,,,,,
+306,2016,B,Těžba a dobývání,29898.00,,,,,
+307,2016,C,Zpracovatelský průmysl,26086.00,,,,,
+308,2016,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",42006.00,,,,,
+309,2016,E,Zásobování vodou; činnosti související s odpady a sanacemi,23519.00,,,,,
+310,2016,F,Stavebnictví,22856.00,,,,,
+311,2016,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,24265.00,,,,,
+312,2016,H,Doprava a skladování,24510.00,,,,,
+313,2016,I,"Ubytování, stravování a pohostinství",14616.00,,,,,
+314,2016,J,Informační a komunikační činnosti,50474.00,,,,,
+315,2016,K,Peněžnictví a pojišťovnictví,50365.00,,,,,
+316,2016,L,Činnosti v oblasti nemovitostí,23447.00,,,,,
+317,2016,M,"Profesní, vědecké a technické činnosti",32704.00,,,,,
+318,2016,N,Administrativní a podpůrné činnosti,17299.00,,,,,
+319,2016,O,Veřejná správa a obrana; povinné sociální zabezpečení,28083.00,,,,,
+320,2016,P,Vzdělávání,21636.00,,,,,
+321,2016,Q,Zdravotní a sociální péče,25392.00,,,,,
+322,2016,R,"Kulturní, zábavní a rekreační činnosti",21361.00,,,,,
+323,2016,S,Ostatní činnosti,18365.00,,,,,
+324,2017,A,"Zemědělství, lesnictví, rybářství",23949.00,,,,,
+325,2017,B,Těžba a dobývání,31678.00,,,,,
+326,2017,C,Zpracovatelský průmysl,28863.00,,,,,
+327,2017,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",40620.00,,,,,
+328,2017,E,Zásobování vodou; činnosti související s odpady a sanacemi,26441.00,,,,,
+329,2017,F,Stavebnictví,25930.00,,,,,
+330,2017,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,26606.00,,,,,
+331,2017,H,Doprava a skladování,27595.00,,,,,
+332,2017,I,"Ubytování, stravování a pohostinství",16830.00,,,,,
+333,2017,J,Informační a komunikační činnosti,52407.00,,,,,
+334,2017,K,Peněžnictví a pojišťovnictví,52048.00,,,,,
+335,2017,L,Činnosti v oblasti nemovitostí,24671.00,,,,,
+336,2017,M,"Profesní, vědecké a technické činnosti",33828.00,,,,,
+337,2017,N,Administrativní a podpůrné činnosti,18898.00,,,,,
+338,2017,O,Veřejná správa a obrana; povinné sociální zabezpečení,36420.00,,,,,
+339,2017,P,Vzdělávání,30185.00,,,,,
+340,2017,Q,Zdravotní a sociální péče,26899.00,,,,,
+341,2017,R,"Kulturní, zábavní a rekreační činnosti",23667.00,,,,,
+342,2017,S,Ostatní činnosti,19764.00,,,,,
+343,2018,A,"Zemědělství, lesnictví, rybářství",27707.00,,,,,
+344,2018,B,Těžba a dobývání,36614.00,,,,,
+345,2018,C,Zpracovatelský průmysl,33486.00,,,,,
+346,2018,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",43088.00,,,,,
+347,2018,E,Zásobování vodou; činnosti související s odpady a sanacemi,27296.00,,,,,
+348,2018,F,Stavebnictví,28269.00,,,,,
+349,2018,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,28555.00,,,,,
+350,2018,H,Doprava a skladování,29303.00,,,,,
+351,2018,I,"Ubytování, stravování a pohostinství",18398.00,,,,,
+352,2018,J,Informační a komunikační činnosti,54456.00,,,,,
+353,2018,K,Peněžnictví a pojišťovnictví,52119.00,,,,,
+354,2018,L,Činnosti v oblasti nemovitostí,26447.00,,,,,
+355,2018,M,"Profesní, vědecké a technické činnosti",36097.00,,,,,
+356,2018,N,Administrativní a podpůrné činnosti,20874.00,,,,,
+357,2018,O,Veřejná správa a obrana; povinné sociální zabezpečení,33361.00,,,,,
+358,2018,P,Vzdělávání,31976.00,,,,,
+359,2018,Q,Zdravotní a sociální péče,33348.00,,,,,
+360,2018,R,"Kulturní, zábavní a rekreační činnosti",25361.00,,,,,
+361,2018,S,Ostatní činnosti,21097.00,,,,,
+362,2019,A,"Zemědělství, lesnictví, rybářství",26447.00,,,,,
+363,2019,B,Těžba a dobývání,34218.00,,,,,
+364,2019,C,Zpracovatelský průmysl,35176.00,,,,,
+365,2019,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",50716.00,,,,,
+366,2019,E,Zásobování vodou; činnosti související s odpady a sanacemi,30336.00,,,,,
+367,2019,F,Stavebnictví,29596.00,,,,,
+368,2019,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,32333.00,,,,,
+369,2019,H,Doprava a skladování,32604.00,,,,,
+370,2019,I,"Ubytování, stravování a pohostinství",20501.00,,,,,
+371,2019,J,Informační a komunikační činnosti,56390.00,,,,,
+372,2019,K,Peněžnictví a pojišťovnictví,54372.00,,,,,
+373,2019,L,Činnosti v oblasti nemovitostí,30821.00,,,,,
+374,2019,M,"Profesní, vědecké a technické činnosti",38986.00,,,,,
+375,2019,N,Administrativní a podpůrné činnosti,21786.00,,,,,
+376,2019,O,Veřejná správa a obrana; povinné sociální zabezpečení,35776.00,,,,,
+377,2019,P,Vzdělávání,37075.00,,,,,
+378,2019,Q,Zdravotní a sociální péče,34017.00,,,,,
+379,2019,R,"Kulturní, zábavní a rekreační činnosti",31068.00,,,,,
+380,2019,S,Ostatní činnosti,23979.00,,,,,
+381,2020,A,"Zemědělství, lesnictví, rybářství",29096.00,,,,,
+382,2020,B,Těžba a dobývání,40197.00,,,,,
+383,2020,C,Zpracovatelský průmysl,36007.00,,,,,
+384,2020,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",52942.00,,,,,
+385,2020,E,Zásobování vodou; činnosti související s odpady a sanacemi,30162.00,,,,,
+386,2020,F,Stavebnictví,30728.00,,,,,
+387,2020,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,31107.00,,,,,
+388,2020,H,Doprava a skladování,31876.00,,,,,
+389,2020,I,"Ubytování, stravování a pohostinství",18881.00,,,,,
+390,2020,J,Informační a komunikační činnosti,61896.00,,,,,
+391,2020,K,Peněžnictví a pojišťovnictví,55088.00,,,,,
+392,2020,L,Činnosti v oblasti nemovitostí,28571.00,,,,,
+393,2020,M,"Profesní, vědecké a technické činnosti",42482.00,,,,,
+394,2020,N,Administrativní a podpůrné činnosti,23154.00,,,,,
+395,2020,O,Veřejná správa a obrana; povinné sociální zabezpečení,40029.00,,,,,
+396,2020,P,Vzdělávání,32729.00,,,,,
+397,2020,Q,Zdravotní a sociální péče,37789.00,,,,,
+398,2020,R,"Kulturní, zábavní a rekreační činnosti",31471.00,,,,,
+399,2020,S,Ostatní činnosti,24513.00,,,,,
+400,2021,A,"Zemědělství, lesnictví, rybářství",25800.00,,,,,
+401,2021,B,Těžba a dobývání,36128.00,,,,,
+402,2021,C,Zpracovatelský průmysl,33374.00,,,,,
+403,2021,D,"Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu",59285.00,,,,,
+404,2021,E,Zásobování vodou; činnosti související s odpady a sanacemi,32026.00,,,,,
+405,2021,F,Stavebnictví,28711.00,,,,,
+406,2021,G,Velkoobchod a maloobchod; opravy a údržba motorových vozidel,31468.00,,,,,
+407,2021,H,Doprava a skladování,30827.00,,,,,
+408,2021,I,"Ubytování, stravování a pohostinství",18672.00,,,,,
+409,2021,J,Informační a komunikační činnosti,64086.00,,,,,
+410,2021,K,Peněžnictví a pojišťovnictví,59534.00,,,,,
+411,2021,L,Činnosti v oblasti nemovitostí,29865.00,,,,,
+412,2021,M,"Profesní, vědecké a technické činnosti",40218.00,,,,,
+413,2021,N,Administrativní a podpůrné činnosti,24056.00,,,,,
+414,2021,O,Veřejná správa a obrana; povinné sociální zabezpečení,40409.00,,,,,
+415,2021,P,Vzdělávání,31006.00,,,,,
+416,2021,Q,Zdravotní a sociální péče,36866.00,,,,,
+417,2021,R,"Kulturní, zábavní a rekreační činnosti",27351.00,,,,,
+418,2021,S,Ostatní činnosti,21783.00,,,,,
+512,2006,,,,111101.00,Rýže loupaná dlouhozrnná,21.29,1.00,kg
+513,2006,,,,111201.00,Pšeničná mouka hladká,7.41,1.00,kg
+514,2006,,,,111301.00,Chléb konzumní kmínový,16.12,1.00,kg
+515,2006,,,,111303.00,Pečivo pšeničné bílé,38.60,1.00,kg
+516,2006,,,,111602.00,Těstoviny vaječné,26.10,1.00,kg
+517,2006,,,,112101.00,Hovězí maso zadní bez kosti,166.34,1.00,kg
+518,2006,,,,112201.00,Vepřová pečeně s kostí,105.18,1.00,kg
+519,2006,,,,112401.00,Kuřata kuchaná celá,47.47,1.00,kg
+520,2006,,,,112704.00,Šunkový salám,116.77,1.00,kg
+521,2006,,,,114201.00,Mléko polotučné pasterované,14.44,1.00,l
+522,2006,,,,114401.00,Jogurt bílý netučný,5.83,150.00,g
+523,2006,,,,114501.00,Eidamská cihla,110.95,1.00,kg
+524,2006,,,,114701.00,Vejce slepičí čerstvá,23.49,10.00,ks
+525,2006,,,,115101.00,Máslo,104.39,1.00,kg
+526,2006,,,,115201.00,Rostlinný roztíratelný tuk,69.45,1.00,kg
+527,2006,,,,116101.00,Pomeranče,24.73,1.00,kg
+528,2006,,,,116103.00,Banány žluté,27.30,1.00,kg
+529,2006,,,,116104.00,Jablka konzumní,30.71,1.00,kg
+530,2006,,,,117101.00,Rajská jablka červená kulatá,57.83,1.00,kg
+531,2006,,,,117103.00,Papriky,35.31,1.00,kg
+532,2006,,,,117106.00,Mrkev,14.41,1.00,kg
+533,2006,,,,117401.00,Konzumní brambory,12.07,1.00,kg
+534,2006,,,,118101.00,Cukr krystalový,21.73,1.00,kg
+535,2006,,,,122102.00,Přírodní minerální voda uhličitá,7.69,1.00,l
+536,2006,,,,213201.00,"Pivo výčepní, světlé, lahvové",8.45,0.50,l
+537,2006,,,,2000001.00,Kapr živý,69.35,1.00,kg
+538,2007,,,,111101.00,Rýže loupaná dlouhozrnná,23.86,1.00,kg
+539,2007,,,,111201.00,Pšeničná mouka hladká,9.08,1.00,kg
+540,2007,,,,111301.00,Chléb konzumní kmínový,18.85,1.00,kg
+541,2007,,,,111303.00,Pečivo pšeničné bílé,44.04,1.00,kg
+542,2007,,,,111602.00,Těstoviny vaječné,26.71,1.00,kg
+543,2007,,,,112101.00,Hovězí maso zadní bez kosti,169.46,1.00,kg
+544,2007,,,,112201.00,Vepřová pečeně s kostí,102.90,1.00,kg
+545,2007,,,,112401.00,Kuřata kuchaná celá,53.61,1.00,kg
+546,2007,,,,112704.00,Šunkový salám,116.44,1.00,kg
+547,2007,,,,114201.00,Mléko polotučné pasterované,15.59,1.00,l
+548,2007,,,,114401.00,Jogurt bílý netučný,5.88,150.00,g
+549,2007,,,,114501.00,Eidamská cihla,122.68,1.00,kg
+550,2007,,,,114701.00,Vejce slepičí čerstvá,24.97,10.00,ks
+551,2007,,,,115101.00,Máslo,115.78,1.00,kg
+552,2007,,,,115201.00,Rostlinný roztíratelný tuk,69.50,1.00,kg
+553,2007,,,,116101.00,Pomeranče,30.23,1.00,kg
+554,2007,,,,116103.00,Banány žluté,30.85,1.00,kg
+555,2007,,,,116104.00,Jablka konzumní,28.49,1.00,kg
+556,2007,,,,117101.00,Rajská jablka červená kulatá,40.32,1.00,kg
+557,2007,,,,117103.00,Papriky,68.79,1.00,kg
+558,2007,,,,117106.00,Mrkev,14.18,1.00,kg
+559,2007,,,,117401.00,Konzumní brambory,14.10,1.00,kg
+560,2007,,,,118101.00,Cukr krystalový,21.92,1.00,kg
+561,2007,,,,122102.00,Přírodní minerální voda uhličitá,7.73,1.00,l
+562,2007,,,,213201.00,"Pivo výčepní, světlé, lahvové",8.51,0.50,l
+563,2007,,,,2000001.00,Kapr živý,78.97,1.00,kg
+564,2008,,,,111101.00,Rýže loupaná dlouhozrnná,32.69,1.00,kg
+565,2008,,,,111201.00,Pšeničná mouka hladká,12.98,1.00,kg
+566,2008,,,,111301.00,Chléb konzumní kmínový,22.88,1.00,kg
+567,2008,,,,111303.00,Pečivo pšeničné bílé,54.31,1.00,kg
+568,2008,,,,111602.00,Těstoviny vaječné,30.76,1.00,kg
+569,2008,,,,112101.00,Hovězí maso zadní bez kosti,175.55,1.00,kg
+570,2008,,,,112201.00,Vepřová pečeně s kostí,106.46,1.00,kg
+571,2008,,,,112401.00,Kuřata kuchaná celá,60.86,1.00,kg
+572,2008,,,,112704.00,Šunkový salám,118.98,1.00,kg
+573,2008,,,,114201.00,Mléko polotučné pasterované,17.93,1.00,l
+574,2008,,,,114401.00,Jogurt bílý netučný,6.28,150.00,g
+575,2008,,,,114501.00,Eidamská cihla,135.28,1.00,kg
+576,2008,,,,114701.00,Vejce slepičí čerstvá,28.12,10.00,ks
+577,2008,,,,115101.00,Máslo,114.74,1.00,kg
+578,2008,,,,115201.00,Rostlinný roztíratelný tuk,84.40,1.00,kg
+579,2008,,,,116101.00,Pomeranče,31.29,1.00,kg
+580,2008,,,,116103.00,Banány žluté,30.59,1.00,kg
+581,2008,,,,116104.00,Jablka konzumní,33.19,1.00,kg
+582,2008,,,,117101.00,Rajská jablka červená kulatá,35.58,1.00,kg
+583,2008,,,,117103.00,Papriky,62.30,1.00,kg
+584,2008,,,,117106.00,Mrkev,16.88,1.00,kg
+585,2008,,,,117401.00,Konzumní brambory,10.78,1.00,kg
+586,2008,,,,118101.00,Cukr krystalový,21.10,1.00,kg
+587,2008,,,,122102.00,Přírodní minerální voda uhličitá,8.27,1.00,l
+588,2008,,,,213201.00,"Pivo výčepní, světlé, lahvové",8.97,0.50,l
+589,2008,,,,2000001.00,Kapr živý,80.44,1.00,kg
+590,2009,,,,111101.00,Rýže loupaná dlouhozrnná,36.10,1.00,kg
+591,2009,,,,111201.00,Pšeničná mouka hladká,9.97,1.00,kg
+592,2009,,,,111301.00,Chléb konzumní kmínový,19.58,1.00,kg
+593,2009,,,,111303.00,Pečivo pšeničné bílé,38.83,1.00,kg
+594,2009,,,,111602.00,Těstoviny vaječné,30.98,1.00,kg
+595,2009,,,,112101.00,Hovězí maso zadní bez kosti,179.01,1.00,kg
+596,2009,,,,112201.00,Vepřová pečeně s kostí,106.48,1.00,kg
+597,2009,,,,112401.00,Kuřata kuchaná celá,57.86,1.00,kg
+598,2009,,,,112704.00,Šunkový salám,117.99,1.00,kg
+599,2009,,,,114201.00,Mléko polotučné pasterované,15.66,1.00,l
+600,2009,,,,114401.00,Jogurt bílý netučný,6.08,150.00,g
+601,2009,,,,114501.00,Eidamská cihla,111.67,1.00,kg
+602,2009,,,,114701.00,Vejce slepičí čerstvá,26.02,10.00,ks
+603,2009,,,,115101.00,Máslo,96.09,1.00,kg
+604,2009,,,,115201.00,Rostlinný roztíratelný tuk,84.41,1.00,kg
+605,2009,,,,116101.00,Pomeranče,29.79,1.00,kg
+606,2009,,,,116103.00,Banány žluté,30.56,1.00,kg
+607,2009,,,,116104.00,Jablka konzumní,25.85,1.00,kg
+608,2009,,,,117101.00,Rajská jablka červená kulatá,34.92,1.00,kg
+609,2009,,,,117103.00,Papriky,51.70,1.00,kg
+610,2009,,,,117106.00,Mrkev,16.56,1.00,kg
+611,2009,,,,117401.00,Konzumní brambory,10.22,1.00,kg
+612,2009,,,,118101.00,Cukr krystalový,19.81,1.00,kg
+613,2009,,,,122102.00,Přírodní minerální voda uhličitá,8.21,1.00,l
+614,2009,,,,213201.00,"Pivo výčepní, světlé, lahvové",9.18,0.50,l
+615,2009,,,,2000001.00,Kapr živý,82.00,1.00,kg
+616,2010,,,,111101.00,Rýže loupaná dlouhozrnná,33.93,1.00,kg
+617,2010,,,,111201.00,Pšeničná mouka hladká,8.77,1.00,kg
+618,2010,,,,111301.00,Chléb konzumní kmínový,18.39,1.00,kg
+619,2010,,,,111303.00,Pečivo pšeničné bílé,33.54,1.00,kg
+620,2010,,,,111602.00,Těstoviny vaječné,31.94,1.00,kg
+621,2010,,,,112101.00,Hovězí maso zadní bez kosti,176.15,1.00,kg
+622,2010,,,,112201.00,Vepřová pečeně s kostí,100.48,1.00,kg
+623,2010,,,,112401.00,Kuřata kuchaná celá,56.90,1.00,kg
+624,2010,,,,112704.00,Šunkový salám,116.98,1.00,kg
+625,2010,,,,114201.00,Mléko polotučné pasterované,16.03,1.00,l
+626,2010,,,,114401.00,Jogurt bílý netučný,6.26,150.00,g
+627,2010,,,,114501.00,Eidamská cihla,119.95,1.00,kg
+628,2010,,,,114701.00,Vejce slepičí čerstvá,25.15,10.00,ks
+629,2010,,,,115101.00,Máslo,118.39,1.00,kg
+630,2010,,,,115201.00,Rostlinný roztíratelný tuk,80.42,1.00,kg
+631,2010,,,,116101.00,Pomeranče,30.62,1.00,kg
+632,2010,,,,116103.00,Banány žluté,27.44,1.00,kg
+633,2010,,,,116104.00,Jablka konzumní,25.28,1.00,kg
+634,2010,,,,117101.00,Rajská jablka červená kulatá,42.21,1.00,kg
+635,2010,,,,117103.00,Papriky,61.50,1.00,kg
+636,2010,,,,117106.00,Mrkev,15.79,1.00,kg
+637,2010,,,,117401.00,Konzumní brambory,13.27,1.00,kg
+638,2010,,,,118101.00,Cukr krystalový,18.27,1.00,kg
+639,2010,,,,122102.00,Přírodní minerální voda uhličitá,8.03,1.00,l
+640,2010,,,,213201.00,"Pivo výčepní, světlé, lahvové",9.89,0.50,l
+641,2010,,,,2000001.00,Kapr živý,84.38,1.00,kg
+642,2011,,,,111101.00,Rýže loupaná dlouhozrnná,33.34,1.00,kg
+643,2011,,,,111201.00,Pšeničná mouka hladká,11.44,1.00,kg
+644,2011,,,,111301.00,Chléb konzumní kmínový,21.63,1.00,kg
+645,2011,,,,111303.00,Pečivo pšeničné bílé,43.25,1.00,kg
+646,2011,,,,111602.00,Těstoviny vaječné,35.14,1.00,kg
+647,2011,,,,112101.00,Hovězí maso zadní bez kosti,180.73,1.00,kg
+648,2011,,,,112201.00,Vepřová pečeně s kostí,100.04,1.00,kg
+649,2011,,,,112401.00,Kuřata kuchaná celá,58.30,1.00,kg
+650,2011,,,,112704.00,Šunkový salám,115.91,1.00,kg
+651,2011,,,,114201.00,Mléko polotučné pasterované,17.65,1.00,l
+652,2011,,,,114401.00,Jogurt bílý netučný,6.51,150.00,g
+653,2011,,,,114501.00,Eidamská cihla,122.38,1.00,kg
+654,2011,,,,114701.00,Vejce slepičí čerstvá,23.21,10.00,ks
+655,2011,,,,115101.00,Máslo,139.19,1.00,kg
+656,2011,,,,115201.00,Rostlinný roztíratelný tuk,88.72,1.00,kg
+657,2011,,,,116101.00,Pomeranče,28.06,1.00,kg
+658,2011,,,,116103.00,Banány žluté,26.97,1.00,kg
+659,2011,,,,116104.00,Jablka konzumní,29.17,1.00,kg
+660,2011,,,,117101.00,Rajská jablka červená kulatá,30.31,1.00,kg
+661,2011,,,,117103.00,Papriky,53.29,1.00,kg
+662,2011,,,,117106.00,Mrkev,16.44,1.00,kg
+663,2011,,,,117401.00,Konzumní brambory,13.53,1.00,kg
+664,2011,,,,118101.00,Cukr krystalový,22.45,1.00,kg
+665,2011,,,,122102.00,Přírodní minerální voda uhličitá,8.29,1.00,l
+666,2011,,,,213201.00,"Pivo výčepní, světlé, lahvové",10.05,0.50,l
+667,2011,,,,2000001.00,Kapr živý,86.85,1.00,kg
+668,2012,,,,111101.00,Rýže loupaná dlouhozrnná,34.04,1.00,kg
+669,2012,,,,111201.00,Pšeničná mouka hladká,11.53,1.00,kg
+670,2012,,,,111301.00,Chléb konzumní kmínový,22.91,1.00,kg
+671,2012,,,,111303.00,Pečivo pšeničné bílé,43.67,1.00,kg
+672,2012,,,,111602.00,Těstoviny vaječné,37.55,1.00,kg
+673,2012,,,,112101.00,Hovězí maso zadní bez kosti,200.81,1.00,kg
+674,2012,,,,112201.00,Vepřová pečeně s kostí,109.42,1.00,kg
+675,2012,,,,112401.00,Kuřata kuchaná celá,62.90,1.00,kg
+676,2012,,,,112704.00,Šunkový salám,121.75,1.00,kg
+677,2012,,,,114201.00,Mléko polotučné pasterované,18.80,1.00,l
+678,2012,,,,114401.00,Jogurt bílý netučný,7.16,150.00,g
+679,2012,,,,114501.00,Eidamská cihla,128.08,1.00,kg
+680,2012,,,,114701.00,Vejce slepičí čerstvá,35.92,10.00,ks
+681,2012,,,,115101.00,Máslo,137.03,1.00,kg
+682,2012,,,,115201.00,Rostlinný roztíratelný tuk,90.02,1.00,kg
+683,2012,,,,116101.00,Pomeranče,30.19,1.00,kg
+684,2012,,,,116103.00,Banány žluté,31.00,1.00,kg
+685,2012,,,,116104.00,Jablka konzumní,31.00,1.00,kg
+686,2012,,,,117101.00,Rajská jablka červená kulatá,37.85,1.00,kg
+687,2012,,,,117103.00,Papriky,58.83,1.00,kg
+688,2012,,,,117106.00,Mrkev,17.44,1.00,kg
+689,2012,,,,117401.00,Konzumní brambory,10.56,1.00,kg
+690,2012,,,,118101.00,Cukr krystalový,24.27,1.00,kg
+691,2012,,,,122102.00,Přírodní minerální voda uhličitá,8.89,1.00,l
+692,2012,,,,213201.00,"Pivo výčepní, světlé, lahvové",10.16,0.50,l
+693,2012,,,,2000001.00,Kapr živý,90.09,1.00,kg
+694,2013,,,,111101.00,Rýže loupaná dlouhozrnná,34.73,1.00,kg
+695,2013,,,,111201.00,Pšeničná mouka hladká,13.34,1.00,kg
+696,2013,,,,111301.00,Chléb konzumní kmínový,23.12,1.00,kg
+697,2013,,,,111303.00,Pečivo pšeničné bílé,41.98,1.00,kg
+698,2013,,,,111602.00,Těstoviny vaječné,41.00,1.00,kg
+699,2013,,,,112101.00,Hovězí maso zadní bez kosti,207.19,1.00,kg
+700,2013,,,,112201.00,Vepřová pečeně s kostí,115.87,1.00,kg
+701,2013,,,,112401.00,Kuřata kuchaná celá,69.30,1.00,kg
+702,2013,,,,112704.00,Šunkový salám,126.24,1.00,kg
+703,2013,,,,114201.00,Mléko polotučné pasterované,19.34,1.00,l
+704,2013,,,,114401.00,Jogurt bílý netučný,7.70,150.00,g
+705,2013,,,,114501.00,Eidamská cihla,141.97,1.00,kg
+706,2013,,,,114701.00,Vejce slepičí čerstvá,30.48,10.00,ks
+707,2013,,,,115101.00,Máslo,154.80,1.00,kg
+708,2013,,,,115201.00,Rostlinný roztíratelný tuk,93.30,1.00,kg
+709,2013,,,,116101.00,Pomeranče,31.37,1.00,kg
+710,2013,,,,116103.00,Banány žluté,31.79,1.00,kg
+711,2013,,,,116104.00,Jablka konzumní,34.30,1.00,kg
+712,2013,,,,117101.00,Rajská jablka červená kulatá,37.10,1.00,kg
+713,2013,,,,117103.00,Papriky,61.86,1.00,kg
+714,2013,,,,117106.00,Mrkev,18.59,1.00,kg
+715,2013,,,,117401.00,Konzumní brambory,16.93,1.00,kg
+716,2013,,,,118101.00,Cukr krystalový,24.16,1.00,kg
+717,2013,,,,122102.00,Přírodní minerální voda uhličitá,8.74,1.00,l
+718,2013,,,,213201.00,"Pivo výčepní, světlé, lahvové",10.55,0.50,l
+719,2013,,,,2000001.00,Kapr živý,88.09,1.00,kg
+720,2014,,,,111101.00,Rýže loupaná dlouhozrnná,35.31,1.00,kg
+721,2014,,,,111201.00,Pšeničná mouka hladká,13.12,1.00,kg
+722,2014,,,,111301.00,Chléb konzumní kmínový,23.00,1.00,kg
+723,2014,,,,111303.00,Pečivo pšeničné bílé,40.54,1.00,kg
+724,2014,,,,111602.00,Těstoviny vaječné,42.54,1.00,kg
+725,2014,,,,112101.00,Hovězí maso zadní bez kosti,204.95,1.00,kg
+726,2014,,,,112201.00,Vepřová pečeně s kostí,116.37,1.00,kg
+727,2014,,,,112401.00,Kuřata kuchaná celá,71.77,1.00,kg
+728,2014,,,,112704.00,Šunkový salám,129.43,1.00,kg
+729,2014,,,,114201.00,Mléko polotučné pasterované,20.70,1.00,l
+730,2014,,,,114401.00,Jogurt bílý netučný,8.50,150.00,g
+731,2014,,,,114501.00,Eidamská cihla,150.61,1.00,kg
+732,2014,,,,114701.00,Vejce slepičí čerstvá,30.93,10.00,ks
+733,2014,,,,115101.00,Máslo,162.97,1.00,kg
+734,2014,,,,115201.00,Rostlinný roztíratelný tuk,93.05,1.00,kg
+735,2014,,,,116101.00,Pomeranče,29.68,1.00,kg
+736,2014,,,,116103.00,Banány žluté,31.65,1.00,kg
+737,2014,,,,116104.00,Jablka konzumní,30.52,1.00,kg
+738,2014,,,,117101.00,Rajská jablka červená kulatá,41.16,1.00,kg
+739,2014,,,,117103.00,Papriky,60.55,1.00,kg
+740,2014,,,,117106.00,Mrkev,16.22,1.00,kg
+741,2014,,,,117401.00,Konzumní brambory,13.52,1.00,kg
+742,2014,,,,118101.00,Cukr krystalový,22.03,1.00,kg
+743,2014,,,,122102.00,Přírodní minerální voda uhličitá,8.69,1.00,l
+744,2014,,,,213201.00,"Pivo výčepní, světlé, lahvové",10.63,0.50,l
+745,2014,,,,2000001.00,Kapr živý,86.37,1.00,kg
+746,2015,,,,111101.00,Rýže loupaná dlouhozrnná,35.93,1.00,kg
+747,2015,,,,111201.00,Pšeničná mouka hladká,12.59,1.00,kg
+748,2015,,,,111301.00,Chléb konzumní kmínový,22.44,1.00,kg
+749,2015,,,,111303.00,Pečivo pšeničné bílé,39.46,1.00,kg
+750,2015,,,,111602.00,Těstoviny vaječné,44.42,1.00,kg
+751,2015,,,,112101.00,Hovězí maso zadní bez kosti,203.09,1.00,kg
+752,2015,,,,112201.00,Vepřová pečeně s kostí,108.66,1.00,kg
+753,2015,,,,112401.00,Kuřata kuchaná celá,69.58,1.00,kg
+754,2015,,,,112704.00,Šunkový salám,128.86,1.00,kg
+755,2015,,,,114201.00,Mléko polotučné pasterované,19.54,1.00,l
+756,2015,,,,114401.00,Jogurt bílý netučný,8.52,150.00,g
+757,2015,,,,114501.00,Eidamská cihla,119.39,1.00,kg
+758,2015,,,,114701.00,Vejce slepičí čerstvá,31.15,10.00,ks
+759,2015,,,,115101.00,Máslo,157.04,1.00,kg
+760,2015,,,,115201.00,Rostlinný roztíratelný tuk,91.54,1.00,kg
+761,2015,,,,116101.00,Pomeranče,32.50,1.00,kg
+762,2015,,,,116103.00,Banány žluté,31.91,1.00,kg
+763,2015,,,,116104.00,Jablka konzumní,29.87,1.00,kg
+764,2015,,,,117101.00,Rajská jablka červená kulatá,42.77,1.00,kg
+765,2015,,,,117103.00,Papriky,63.52,1.00,kg
+766,2015,,,,117106.00,Mrkev,20.84,1.00,kg
+767,2015,,,,117401.00,Konzumní brambory,13.34,1.00,kg
+768,2015,,,,118101.00,Cukr krystalový,17.80,1.00,kg
+769,2015,,,,122102.00,Přírodní minerální voda uhličitá,8.71,1.00,l
+770,2015,,,,212101.00,Jakostní víno bílé,92.42,0.75,l
+771,2015,,,,213201.00,"Pivo výčepní, světlé, lahvové",10.68,0.50,l
+772,2015,,,,2000001.00,Kapr živý,87.17,1.00,kg
+773,2016,,,,111101.00,Rýže loupaná dlouhozrnná,36.52,1.00,kg
+774,2016,,,,111201.00,Pšeničná mouka hladká,11.03,1.00,kg
+775,2016,,,,111301.00,Chléb konzumní kmínový,21.77,1.00,kg
+776,2016,,,,111303.00,Pečivo pšeničné bílé,40.84,1.00,kg
+777,2016,,,,111602.00,Těstoviny vaječné,44.82,1.00,kg
+778,2016,,,,112101.00,Hovězí maso zadní bez kosti,206.02,1.00,kg
+779,2016,,,,112201.00,Vepřová pečeně s kostí,109.46,1.00,kg
+780,2016,,,,112401.00,Kuřata kuchaná celá,68.97,1.00,kg
+781,2016,,,,112704.00,Šunkový salám,130.21,1.00,kg
+782,2016,,,,114201.00,Mléko polotučné pasterované,17.90,1.00,l
+783,2016,,,,114401.00,Jogurt bílý netučný,8.12,150.00,g
+784,2016,,,,114501.00,Eidamská cihla,110.90,1.00,kg
+785,2016,,,,114701.00,Vejce slepičí čerstvá,28.65,10.00,ks
+786,2016,,,,115101.00,Máslo,148.34,1.00,kg
+787,2016,,,,115201.00,Rostlinný roztíratelný tuk,91.44,1.00,kg
+788,2016,,,,116101.00,Pomeranče,32.60,1.00,kg
+789,2016,,,,116103.00,Banány žluté,31.72,1.00,kg
+790,2016,,,,116104.00,Jablka konzumní,29.94,1.00,kg
+791,2016,,,,117101.00,Rajská jablka červená kulatá,40.57,1.00,kg
+792,2016,,,,117103.00,Papriky,64.55,1.00,kg
+793,2016,,,,117106.00,Mrkev,18.55,1.00,kg
+794,2016,,,,117401.00,Konzumní brambory,15.22,1.00,kg
+795,2016,,,,118101.00,Cukr krystalový,17.59,1.00,kg
+796,2016,,,,122102.00,Přírodní minerální voda uhličitá,8.66,1.00,l
+797,2016,,,,212101.00,Jakostní víno bílé,94.65,0.75,l
+798,2016,,,,213201.00,"Pivo výčepní, světlé, lahvové",11.23,0.50,l
+799,2016,,,,2000001.00,Kapr živý,85.07,1.00,kg
+800,2017,,,,111101.00,Rýže loupaná dlouhozrnná,36.30,1.00,kg
+801,2017,,,,111201.00,Pšeničná mouka hladká,11.43,1.00,kg
+802,2017,,,,111301.00,Chléb konzumní kmínový,24.17,1.00,kg
+803,2017,,,,111303.00,Pečivo pšeničné bílé,45.23,1.00,kg
+804,2017,,,,111602.00,Těstoviny vaječné,46.55,1.00,kg
+805,2017,,,,112101.00,Hovězí maso zadní bez kosti,218.27,1.00,kg
+806,2017,,,,112201.00,Vepřová pečeně s kostí,118.27,1.00,kg
+807,2017,,,,112401.00,Kuřata kuchaná celá,68.18,1.00,kg
+808,2017,,,,112704.00,Šunkový salám,142.03,1.00,kg
+809,2017,,,,114201.00,Mléko polotučné pasterované,19.50,1.00,l
+810,2017,,,,114401.00,Jogurt bílý netučný,8.73,150.00,g
+811,2017,,,,114501.00,Eidamská cihla,142.58,1.00,kg
+812,2017,,,,114701.00,Vejce slepičí čerstvá,36.34,10.00,ks
+813,2017,,,,115101.00,Máslo,197.79,1.00,kg
+814,2017,,,,115201.00,Rostlinný roztíratelný tuk,94.29,1.00,kg
+815,2017,,,,116101.00,Pomeranče,36.32,1.00,kg
+816,2017,,,,116103.00,Banány žluté,31.07,1.00,kg
+817,2017,,,,116104.00,Jablka konzumní,32.63,1.00,kg
+818,2017,,,,117101.00,Rajská jablka červená kulatá,44.70,1.00,kg
+819,2017,,,,117103.00,Papriky,62.40,1.00,kg
+820,2017,,,,117106.00,Mrkev,15.03,1.00,kg
+821,2017,,,,117401.00,Konzumní brambory,15.93,1.00,kg
+822,2017,,,,118101.00,Cukr krystalový,19.96,1.00,kg
+823,2017,,,,122102.00,Přírodní minerální voda uhličitá,8.78,1.00,l
+824,2017,,,,212101.00,Jakostní víno bílé,96.70,0.75,l
+825,2017,,,,213201.00,"Pivo výčepní, světlé, lahvové",11.30,0.50,l
+826,2017,,,,2000001.00,Kapr živý,87.72,1.00,kg
+827,2018,,,,111101.00,Rýže loupaná dlouhozrnná,36.18,1.00,kg
+828,2018,,,,111201.00,Pšeničná mouka hladká,11.44,1.00,kg
+829,2018,,,,111301.00,Chléb konzumní kmínový,24.24,1.00,kg
+830,2018,,,,111303.00,Pečivo pšeničné bílé,43.84,1.00,kg
+831,2018,,,,111602.00,Těstoviny vaječné,47.87,1.00,kg
+832,2018,,,,112101.00,Hovězí maso zadní bez kosti,223.26,1.00,kg
+833,2018,,,,112201.00,Vepřová pečeně s kostí,116.85,1.00,kg
+834,2018,,,,112401.00,Kuřata kuchaná celá,69.31,1.00,kg
+835,2018,,,,112704.00,Šunkový salám,144.88,1.00,kg
+836,2018,,,,114201.00,Mléko polotučné pasterované,19.82,1.00,l
+837,2018,,,,114401.00,Jogurt bílý netučný,9.17,150.00,g
+838,2018,,,,114501.00,Eidamská cihla,142.45,1.00,kg
+839,2018,,,,114701.00,Vejce slepičí čerstvá,38.39,10.00,ks
+840,2018,,,,115101.00,Máslo,207.08,1.00,kg
+841,2018,,,,115201.00,Rostlinný roztíratelný tuk,99.40,1.00,kg
+842,2018,,,,116101.00,Pomeranče,36.50,1.00,kg
+843,2018,,,,116103.00,Banány žluté,29.32,1.00,kg
+844,2018,,,,116104.00,Jablka konzumní,36.17,1.00,kg
+845,2018,,,,117101.00,Rajská jablka červená kulatá,44.49,1.00,kg
+846,2018,,,,117103.00,Papriky,60.47,1.00,kg
+847,2018,,,,117106.00,Mrkev,22.45,1.00,kg
+848,2018,,,,117401.00,Konzumní brambory,15.08,1.00,kg
+849,2018,,,,118101.00,Cukr krystalový,15.75,1.00,kg
+850,2018,,,,122102.00,Přírodní minerální voda uhličitá,8.64,1.00,l
+851,2018,,,,212101.00,Jakostní víno bílé,100.10,0.75,l
+852,2018,,,,213201.00,"Pivo výčepní, světlé, lahvové",11.81,0.50,l
+853,2018,,,,2000001.00,Kapr živý,93.46,1.00,kg
