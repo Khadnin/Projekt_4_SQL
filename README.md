@@ -13,7 +13,7 @@ Tento projekt slouží k zodpovězení těchto otázek z dostupných dat:
 
 ### Vstupní data
 
-Pro následují soubory je vždy dostupná `*.csv` a `*.frm` + `*.idb` verze.
+Pro následují soubory je vždy dostupná `*.csv` verze.  `*.frm` + `*.idb` verze nejsou dostupné z důvodů velikostí.
 | Název             | Popis                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | countries | Všemožné informace o zemích na světě, například hlavní město, měna, národní jídlo nebo průměrná výška populace. |
