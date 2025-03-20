@@ -1,5 +1,5 @@
 
-# Projekt_3_Election_scraper
+# Projekt_4_SQL
 
 ## Účel
 Tento projekt slouží k zodpovězení těchto otázek z dostupných dat:
