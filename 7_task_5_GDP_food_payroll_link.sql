@@ -11,9 +11,9 @@ ORDER BY year;
 CREATE OR REPLACE VIEW w_cze_gdp_change AS 
 SELECT
 	id,
-    country,
-    year,
-    GDP,
+    	country,
+    	year,
+    	GDP,
 	ROUND((GDP - LAG(GDP) OVER (ORDER BY year)), 2) AS GDP_change,
 	ROUND((100.0 * (GDP - LAG(GDP) OVER (ORDER BY year)) / LAG(GDP) OVER (ORDER BY year)), 2) AS GDP_change_percent
 FROM w_cze_eco;
@@ -21,14 +21,14 @@ FROM w_cze_eco;
 # Vytvoření view "w_GDP_food_payroll" s procentuální změnou HDP (GDP), cen potravin a mezd/platů.
 CREATE OR REPLACE VIEW w_GDP_food_payroll AS
 SELECT 
-	w_cze_gdp_change.YEAR,
+	w_cze_gdp_change.year,
 	w_cze_gdp_change.country,
 	w_cze_gdp_change.GDP_change_percent,
 	w_food_payroll_dif_per_year.avg_food_change,
 	w_food_payroll_dif_per_year.avg_payroll_change
 FROM w_cze_gdp_change
 RIGHT JOIN w_food_payroll_dif_per_year
-ON w_food_payroll_dif_per_year.YEAR = w_cze_gdp_change.YEAR;
+ON w_food_payroll_dif_per_year.year = w_cze_gdp_change.year;
 
 # Vytvoření view "w_GDP_food_payroll_diff" s dopočítanými rozdíly mezi HDP (GDP), cenami potravin a mezdami/platy jak ve stejném roce tak v roce následujícím.
 CREATE OR REPLACE VIEW w_GDP_food_payroll_diff AS
@@ -43,7 +43,7 @@ FROM w_GDP_food_payroll;
 # Vytvoření view "w_percentages_diff" s dopočítanými kumulativními změnami HDP (GDP), cenami potravin a mezdami/platy za sledované roky.
 CREATE OR REPLACE VIEW w_percentages_diff AS
 SELECT 
-	w_GDP_food_payroll_diff.YEAR,
+	w_GDP_food_payroll_diff.year,
 	w_GDP_food_payroll_diff.GDP_change_percent,
 	w_GDP_food_payroll_diff.avg_food_change,
 	w_GDP_food_payroll_diff.avg_payroll_change,
@@ -59,7 +59,7 @@ FROM w_GDP_food_payroll_diff;
 # Vytvoření view "w_percentages_avg" s dopočítanými průměrnými změnami HDP (GDP), cenami potravin a mezdami/platy za sledované roky.
 CREATE OR REPLACE VIEW w_percentages_avg AS
 SELECT 
-	w_GDP_food_payroll_diff.YEAR,
+	w_GDP_food_payroll_diff.year,
 	w_GDP_food_payroll_diff.GDP_change_percent,
 	w_GDP_food_payroll_diff.avg_food_change,
 	w_GDP_food_payroll_diff.avg_payroll_change,
@@ -70,14 +70,14 @@ SELECT
 FROM w_GDP_food_payroll_diff
 UNION ALL
 SELECT
-  "average" AS year,
-  ROUND(AVG(GDP_change_percent), 2) AS GDP_change_percent,
-  ROUND(AVG(avg_food_change), 2) AS avg_food_change,
-  ROUND(AVG(avg_payroll_change), 2) AS avg_payroll_change,
-  ROUND(AVG(GDP_food), 2) AS GDP_food,
-  ROUND(AVG(GDP_payroll), 2) AS GDP_payroll,
-  ROUND(AVG(GDP_food_previous_year), 2) AS GDP_food_previous_year,
-  ROUND(AVG(GDP_payroll_previous_year), 2) AS GDP_payroll_previous_year
+  	"average" AS year,
+  	ROUND(AVG(GDP_change_percent), 2) AS GDP_change_percent,
+  	ROUND(AVG(avg_food_change), 2) AS avg_food_change,
+ 	 ROUND(AVG(avg_payroll_change), 2) AS avg_payroll_change,
+  	ROUND(AVG(GDP_food), 2) AS GDP_food,
+  	ROUND(AVG(GDP_payroll), 2) AS GDP_payroll,
+  	ROUND(AVG(GDP_food_previous_year), 2) AS GDP_food_previous_year,
+  	ROUND(AVG(GDP_payroll_previous_year), 2) AS GDP_payroll_previous_year
 FROM w_GDP_food_payroll_diff;
 
 # 5.
@@ -89,7 +89,7 @@ FROM w_percentages_avg;
 
 # Zobrazení výsledku jaká byla kumulativní změna HDP (GDP), cen potravin a mezd/platů.
 SELECT
-	YEAR,
+	year,
 	GDP_cumulative,
 	food_cumulative,
 	payroll_cumulative
