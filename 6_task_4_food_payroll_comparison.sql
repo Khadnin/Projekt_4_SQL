@@ -13,8 +13,8 @@ GROUP BY year;
 # Vytvoření view s průměrnou mzdou/platem dohromady v daném roce.
 CREATE OR REPLACE VIEW w_payroll_change_avg AS
 SELECT 
-    year, 
-    ROUND(AVG(payroll_value), 2) AS avg_payroll_year
+    	year, 
+    	ROUND(AVG(payroll_value), 2) AS avg_payroll_year
 FROM t_Ondrej_Laskafeld_project_SQL_primary_final
 WHERE industry_branch_name IS NOT NULL
 GROUP BY year;
@@ -35,7 +35,7 @@ SELECT
 	avg_price_all,
 	avg_payroll_year,
 	ROUND((100.0 * (avg_price_all - LAG(avg_price_all) OVER (ORDER BY year)) / LAG(avg_price_all) OVER (ORDER BY year)), 2) AS avg_food_change,
-    ROUND((100.0 * (avg_payroll_year - LAG(avg_payroll_year) OVER (ORDER BY year)) / LAG(avg_payroll_year) OVER (ORDER BY year)), 2) AS avg_payroll_change
+	ROUND((100.0 * (avg_payroll_year - LAG(avg_payroll_year) OVER (ORDER BY year)) / LAG(avg_payroll_year) OVER (ORDER BY year)), 2) AS avg_payroll_change
 FROM w_food_payroll_per_year;
 
 # Vytvoření view s výpočtem rozdílu mezi změnou cen potravin a mezd/platů - porovnání zda nějaký rok byl nárůst cen potravin o 10% více než růst mezd/platů.
@@ -57,7 +57,7 @@ FROM w_food_payroll_dif_per_year;
 
 # Zobrazení textové podoby výsledků zda v nějakém roce rostly ceny potravin o 10 nebo více % ve srovnání s růstem mezd/platů.
 WITH max_value AS (
-    SELECT MAX(diff_food_payroll_percent) as max_diff
+    SELECT MAX(diff_food_payroll_percent) AS max_diff
     FROM w_food_payroll_dif_per_year)
 SELECT "V žádném sledovaném roce nebylo zdražení průměrné ceny sledovaných potravin o 10% více než průměrná změna mezd/platů v daném roce." as message
 FROM max_value
