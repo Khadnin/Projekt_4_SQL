@@ -14,7 +14,7 @@ FROM t_Ondrej_Laskafeld_project_SQL_primary_final
 WHERE 
 	category_name IS NOT NULL
 	AND 
-	YEAR IN (
+	year IN (
 	(SELECT MIN(year) FROM t_Ondrej_Laskafeld_project_SQL_primary_final 
 	WHERE category_name IS NOT NULL), 
 	(SELECT MAX(year) FROM t_Ondrej_Laskafeld_project_SQL_primary_final
@@ -50,7 +50,7 @@ SELECT *
 FROM w_food_percentage_results;
 
 # Zobrazení textové podoby výsledků potravin s největším zlevněním a nejmenším zdražením.
-SELECT Concat(
+SELECT CONCAT(
 		"Mezi roky ",
 		min_year,
 		" a ",
