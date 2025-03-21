@@ -30,7 +30,7 @@ FROM w_payroll_result;
 
 # Zobrazení textové podoby výsledků odvětví a let kde klesaly mzdy/platy v podobě tabulky.
 SELECT 
-	Concat(
+	CONCAT(
 	"V roce ", 
 	year, 
 	" byl v ", 
