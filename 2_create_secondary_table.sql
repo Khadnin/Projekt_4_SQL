@@ -19,7 +19,7 @@ gini DECIMAL(10, 2),             		# Gini index
 taxes DECIMAL(10, 2)              		# Daně
 );
 
-# Vloží do tabulky "secondary_final" data z tabulky countires (id je NULL kvůli CROSS JOINT) a pomocí cross joint vytvoří řádky
+# Vloží do tabulky "secondary_final" data z tabulky countires (id je NULL kvůli CROSS JOINT) a pomocí CROSS JOINT vytvoří řádky
 # s jednotlivými roky a ekonomickými ukazateli za dané roky. JOIN je udělaný podle názvů zemí.
 INSERT INTO t_Ondrej_Laskafeld_project_SQL_secondary_final
 SELECT 
