@@ -13,7 +13,7 @@ WHERE
 	OR year = (SELECT MAX(year) FROM t_Ondrej_Laskafeld_project_SQL_primary_final
 	WHERE category_name = "Chléb konzumní kmínový" 
 		OR category_name = "Mléko polotučné pasterované")
-GROUP BY YEAR;
+GROUP BY year;
 
 # Vytvoří view kde jsou roky, jméno produktu, cena v daném roce, a jednotky v kterých je věc prodávána. Následně vyfiltruje ceny jen pro "Chléb konzumní kmínový" a "Mléko polotučné pasterované",
 # ale jen pro maximální a minimální roky kde se objevily ceny chlebu a mléka.
@@ -69,7 +69,7 @@ SELECT *
 FROM w_bread_milk_avg;
 
 # Zobrazení textové podoby výsledků průměrného množství koupitelného chleba a mléka v daných letech v podobě tabulky.
-SELECT Concat(
+SELECT CONCAT(
 		"Za rok ",
 		year,
 		" bylo možné si koupit ",
