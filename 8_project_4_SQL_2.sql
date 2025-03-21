@@ -5,21 +5,21 @@
 # Vytvoření (případně nahrazení) prázdné tabulky "primary_final" se sloupci potřebnými pro další vyhodnocování
 CREATE OR REPLACE TABLE t_Ondrej_Laskafeld_project_SQL_primary_final (
 id INT AUTO_INCREMENT PRIMARY KEY,		# unikátní ID
-year INT,								# Rok
+year INT,					# Rok
 industry_branch_code VARCHAR(255),		# Odvětví kód
-industry_branch_name VARCHAR(255),      # Odvětví popis
-payroll_value DECIMAL(10, 2),           # Mzdy
-category_code DECIMAL(10, 2),           # Kód kategorie z czechia_price
-category_name VARCHAR(255),             # Název kategorie z czechia_price_category
-price_avg DECIMAL(10, 2),               # Průměrná cena
-price_value DECIMAL(10, 2),             # Hodnota ceny
-price_unit VARCHAR(50)                  # Jednotka ceny
+industry_branch_name VARCHAR(255),     		# Odvětví popis
+payroll_value DECIMAL(10, 2),           	# Mzdy
+category_code DECIMAL(10, 2),           	# Kód kategorie z czechia_price
+category_name VARCHAR(255),             	# Název kategorie z czechia_price_category
+price_avg DECIMAL(10, 2),               	# Průměrná cena
+price_value DECIMAL(10, 2),             	# Hodnota ceny
+price_unit VARCHAR(50)                  	# Jednotka ceny
 );
 
 # Vložení hodnot z "cp" do "primary_final" tabulky - rok, hodnoty mzdy, kód odvětví a z tabulky "cpib" přes JOIN na kód průmyslu vloženo jméno odvětní
 # Pouze však hodnoty mzdy kde není "NULL", calculation_code = 100 tzn "fyzický" a unit_code = 200 tzn "Kč"
 # Seřazeno podle roku a kódu odvětví
-INSERT INTO t_Ondrej_Laskafeld_project_SQL_primary_final (YEAR, payroll_value, industry_branch_code, industry_branch_name)
+INSERT INTO t_Ondrej_Laskafeld_project_SQL_primary_final (year, payroll_value, industry_branch_code, industry_branch_name)
 SELECT cp.payroll_year, cp.value, cp.industry_branch_code, cpib.name
 FROM czechia_payroll cp
 JOIN czechia_payroll_industry_branch cpib ON cp.industry_branch_code = cpib.code
@@ -30,13 +30,13 @@ GROUP BY
 
 # Vložení hodnot z cpprice do "primary_final" tabulky - rok, kód potraviny, název potraviny, průměrná cena (v daném roce za všechny oblasti/kraje), množství a jednotky
 # Seřazeno podle roku a kódu potraviny
-INSERT INTO t_Ondrej_Laskafeld_project_SQL_primary_final (YEAR, category_code, category_name, price_avg, price_value, price_unit)
-SELECT YEAR(cpprice.date_from), cpprice.category_code, cpcat.name, AVG(cpprice.value), cpcat.price_value, cpcat.price_unit
+INSERT INTO t_Ondrej_Laskafeld_project_SQL_primary_final (year, category_code, category_name, price_avg, price_value, price_unit)
+SELECT year(cpprice.date_from), cpprice.category_code, cpcat.name, AVG(cpprice.value), cpcat.price_value, cpcat.price_unit
 FROM czechia_price cpprice
 JOIN czechia_price_category cpcat ON cpprice.category_code = cpcat.code
 GROUP BY 
-    YEAR(cpprice.date_from),
-    cpprice.category_code;
+    	year(cpprice.date_from),
+    	cpprice.category_code;
 #######################################################################################
 
 #######################################################################################
@@ -45,37 +45,37 @@ GROUP BY
 # Vytvoření (případně nahrazení) prázdné tabulky "secondary_final" se sloupci potřebnými pro další vyhodnocování
 CREATE OR REPLACE TABLE t_Ondrej_Laskafeld_project_SQL_secondary_final (
 id INT AUTO_INCREMENT PRIMARY KEY,		# unikátní ID
-country VARCHAR(255),					# Země/Stát
-iso3 VARCHAR(5),						# ISO3 označení země
-continent VARCHAR(50),                 	# Kontinent
-population DECIMAL(15, 2),          	# Populace
+country VARCHAR(255),				# Země/Stát
+iso3 VARCHAR(5),				# ISO3 označení země
+continent VARCHAR(50),                 		# Kontinent
+population DECIMAL(15, 2),          		# Populace
 population_density DECIMAL(15, 2),		# Hustota osídlení
 surface_area DECIMAL(15, 2),			# Plocha
-currency_name VARCHAR(50),				# Měna
-currency_code VARCHAR(50),				# Kód měny
-year INT,								# Rok
+currency_name VARCHAR(50),			# Měna
+currency_code VARCHAR(50),			# Kód měny
+year INT,					# Rok
 GDP DECIMAL(50, 2),           			# GDP
 gini DECIMAL(10, 2),             		# Gini index
 taxes DECIMAL(10, 2)              		# Daně
 );
 
-# Vloží do tabulky "secondary_final" data z tabulky countires (id je NULL kvůli CROSS JOINT) a pomocí cross joint vytvoří řádky
+# Vloží do tabulky "secondary_final" data z tabulky countires (id je NULL kvůli CROSS JOINT) a pomocí CROSS JOINT vytvoří řádky
 # s jednotlivými roky a ekonomickými ukazateli za dané roky. JOIN je udělaný podle názvů zemí.
 INSERT INTO t_Ondrej_Laskafeld_project_SQL_secondary_final
 SELECT 
-    NULL,
-    cn.country,
-    cn.iso3,
-    cn.continent,
-    cn.population,
-    cn.population_density,
-    cn.surface_area,
-    cn.currency_name,
-    cn.currency_code,
-    ec.year,
-    ec.GDP,
-    ec.gini,
-    ec.taxes
+    	NULL,
+    	cn.country,
+    	cn.iso3,
+    	cn.continent,
+    	cn.population,
+    	cn.population_density,
+    	cn.surface_area,
+    	cn.currency_name,
+    	cn.currency_code,
+    	ec.year,
+    	ec.GDP,
+    	ec.gini,
+    	ec.taxes
 FROM countries cn
 CROSS JOIN economies ec
 WHERE cn.country = ec.country;
@@ -85,10 +85,10 @@ WHERE cn.country = ec.country;
 # Vytvoří view kde dopočítá absolutní změnu "payroll_value", procentuální změnu a vytvoří sloupec (payroll_change) se slovním vyhodnocením změny mezd/platů.
 CREATE OR REPLACE VIEW w_payroll_change AS
 SELECT 
-    year, 
-    industry_branch_name, 
-    payroll_value, 
-    payroll_value - LAG(payroll_value) OVER (PARTITION BY industry_branch_name ORDER BY year) AS difference_payroll,
+    	year, 
+    	industry_branch_name, 
+    	payroll_value, 
+    	payroll_value - LAG(payroll_value) OVER (PARTITION BY industry_branch_name ORDER BY year) AS difference_payroll,
   	ROUND((100.0 * (payroll_value - LAG(payroll_value) OVER (PARTITION BY industry_branch_name ORDER BY year)) / LAG(payroll_value) OVER (PARTITION BY industry_branch_name ORDER BY year)), 2) AS percentage,
     CASE
         WHEN payroll_value - LAG(payroll_value) OVER (PARTITION BY industry_branch_name ORDER BY year) < 0 THEN "POKLES"
@@ -117,7 +117,7 @@ WHERE
 	OR year = (SELECT MAX(year) FROM t_Ondrej_Laskafeld_project_SQL_primary_final
 	WHERE category_name = "Chléb konzumní kmínový" 
 		OR category_name = "Mléko polotučné pasterované")
-GROUP BY YEAR;
+GROUP BY year;
 
 # Vytvoří view kde jsou roky, jméno produktu, cena v daném roce, a jednotky v kterých je věc prodávána. Následně vyfiltruje ceny jen pro "Chléb konzumní kmínový" a "Mléko polotučné pasterované",
 # ale jen pro maximální a minimální roky kde se objevily ceny chlebu a mléka.
@@ -179,7 +179,7 @@ FROM t_Ondrej_Laskafeld_project_SQL_primary_final
 WHERE 
 	category_name IS NOT NULL
 	AND 
-	YEAR IN (
+	year IN (
 	(SELECT MIN(year) FROM t_Ondrej_Laskafeld_project_SQL_primary_final 
 	WHERE category_name IS NOT NULL), 
 	(SELECT MAX(year) FROM t_Ondrej_Laskafeld_project_SQL_primary_final
@@ -221,8 +221,8 @@ GROUP BY year;
 # Vytvoření view s průměrnou mzdou/platem dohromady v daném roce.
 CREATE OR REPLACE VIEW w_payroll_change_avg AS
 SELECT 
-    year, 
-    ROUND(AVG(payroll_value), 2) AS avg_payroll_year
+    	year, 
+    	ROUND(AVG(payroll_value), 2) AS avg_payroll_year
 FROM t_Ondrej_Laskafeld_project_SQL_primary_final
 WHERE industry_branch_name IS NOT NULL
 GROUP BY year;
@@ -234,7 +234,7 @@ SELECT
 	avg_price_all,
 	avg_payroll_year
 FROM w_food_prices_all
-INNER JOIN w_payroll_change_avg ON w_payroll_change_avg.YEAR = w_food_prices_all.year;
+INNER JOIN w_payroll_change_avg ON w_payroll_change_avg.year = w_food_prices_all.year;
 
 # Vytvoření view s výpočtem změny mezi jednotlivími roky (po sobě jdoucími) cen potravin a mezd/platů v procentech. 
 CREATE OR REPLACE VIEW w_food_payroll_per_year_percent AS
@@ -268,9 +268,9 @@ ORDER BY year;
 CREATE OR REPLACE VIEW w_cze_gdp_change AS 
 SELECT
 	id,
-    country,
-    year,
-    GDP,
+    	country,
+    	year,
+    	GDP,
 	ROUND((GDP - LAG(GDP) OVER (ORDER BY year)), 2) AS GDP_change,
 	ROUND((100.0 * (GDP - LAG(GDP) OVER (ORDER BY year)) / LAG(GDP) OVER (ORDER BY year)), 2) AS GDP_change_percent
 FROM w_cze_eco;
@@ -278,14 +278,14 @@ FROM w_cze_eco;
 # Vytvoření view "w_GDP_food_payroll" s procentuální změnou HDP (GDP), cen potravin a mezd/platů.
 CREATE OR REPLACE VIEW w_GDP_food_payroll AS
 SELECT 
-	w_cze_gdp_change.YEAR,
+	w_cze_gdp_change.year,
 	w_cze_gdp_change.country,
 	w_cze_gdp_change.GDP_change_percent,
 	w_food_payroll_dif_per_year.avg_food_change,
 	w_food_payroll_dif_per_year.avg_payroll_change
 FROM w_cze_gdp_change
 RIGHT JOIN w_food_payroll_dif_per_year
-ON w_food_payroll_dif_per_year.YEAR = w_cze_gdp_change.YEAR;
+ON w_food_payroll_dif_per_year.year = w_cze_gdp_change.year;
 
 # Vytvoření view "w_GDP_food_payroll_diff" s dopočítanými rozdíly mezi HDP (GDP), cenami potravin a mezdami/platy jak ve stejném roce tak v roce následujícím.
 CREATE OR REPLACE VIEW w_GDP_food_payroll_diff AS
@@ -300,7 +300,7 @@ FROM w_GDP_food_payroll;
 # Vytvoření view "w_percentages_diff" s dopočítanými kumulativními změnami HDP (GDP), cenami potravin a mezdami/platy za sledované roky.
 CREATE OR REPLACE VIEW w_percentages_diff AS
 SELECT 
-	w_GDP_food_payroll_diff.YEAR,
+	w_GDP_food_payroll_diff.year,
 	w_GDP_food_payroll_diff.GDP_change_percent,
 	w_GDP_food_payroll_diff.avg_food_change,
 	w_GDP_food_payroll_diff.avg_payroll_change,
@@ -316,7 +316,7 @@ FROM w_GDP_food_payroll_diff;
 # Vytvoření view "w_percentages_avg" s dopočítanými průměrnými změnami HDP (GDP), cenami potravin a mezdami/platy za sledované roky.
 CREATE OR REPLACE VIEW w_percentages_avg AS
 SELECT 
-	w_GDP_food_payroll_diff.YEAR,
+	w_GDP_food_payroll_diff.year,
 	w_GDP_food_payroll_diff.GDP_change_percent,
 	w_GDP_food_payroll_diff.avg_food_change,
 	w_GDP_food_payroll_diff.avg_payroll_change,
@@ -347,7 +347,7 @@ FROM w_payroll_result;
 
 # Zobrazení textové podoby výsledků odvětví a let kde klesaly mzdy/platy v podobě tabulky.
 SELECT 
-	Concat(
+	CONCAT(
 	"V roce ", 
 	year, 
 	" byl v ", 
@@ -372,16 +372,16 @@ SELECT *
 FROM w_bread_milk_avg;
 
 # Zobrazení textové podoby výsledků průměrného množství koupitelného chleba a mléka v daných letech v podobě tabulky.
-SELECT Concat(
-		"Za rok ",
-		year,
-		" bylo možné si koupit ",
-		avg_amount,
-		" ",
-		price_unit,
-		" ",
-		category_name
-		) AS Result_food
+SELECT CONCAT(
+	"Za rok ",
+	year,
+	" bylo možné si koupit ",
+	avg_amount,
+	" ",
+	price_unit,
+	" ",
+	category_name
+	) AS Result_food
 FROM w_bread_milk_avg
 ORDER BY category_name;
 #######################################################################################
@@ -393,7 +393,7 @@ SELECT *
 FROM w_food_percentage_results;
 
 # Zobrazení textové podoby výsledků potravin s největším zlevněním a nejmenším zdražením.
-SELECT Concat(
+SELECT CONCAT(
 		"Mezi roky ",
 		min_year,
 		" a ",
@@ -418,13 +418,13 @@ FROM w_food_payroll_dif_per_year;
 
 # Zobrazení textové podoby výsledků zda v nějakém roce rostly ceny potravin o 10 nebo více % ve srovnání s růstem mezd/platů.
 WITH max_value AS (
-    SELECT MAX(diff_food_payroll_percent) as max_diff
+    SELECT MAX(diff_food_payroll_percent) AS max_diff
     FROM w_food_payroll_dif_per_year)
-SELECT "V žádném sledovaném roce nebylo zdražení průměrné ceny sledovaných potravin o 10% více než průměrná změna mezd/platů v daném roce." as message
+SELECT "V žádném sledovaném roce nebylo zdražení průměrné ceny sledovaných potravin o 10% více než průměrná změna mezd/platů v daném roce." AS message
 FROM max_value
 WHERE max_diff < 10
 UNION ALL
-SELECT Concat("V roce ", YEAR, " bylo průměrné zdražení potravin o ", diff_food_payroll_percent, "% více než průměrný nárůst mezd/platů.") 
+SELECT CONCAT("V roce ", year, " bylo průměrné zdražení potravin o ", diff_food_payroll_percent, "% více než průměrný nárůst mezd/platů.") 
 FROM w_food_payroll_dif_per_year
 WHERE diff_food_payroll_percent >= 10;
 #######################################################################################
@@ -438,7 +438,7 @@ FROM w_percentages_avg;
 
 # Zobrazení výsledku jaká byla kumulativní změna HDP (GDP), cen potravin a mezd/platů.
 SELECT
-	YEAR,
+	year,
 	GDP_cumulative,
 	food_cumulative,
 	payroll_cumulative
